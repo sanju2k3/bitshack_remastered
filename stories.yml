@@ -1,0 +1,113 @@
+version: "2.0"
+
+stories:
+
+- story: user greet
+  steps:
+  - intent: greet
+  - action: utter_greet
+
+- story: user bye
+  steps:
+    - action: utter_goodbye
+
+- story: stomach ache 
+  steps: 
+    - intent: stomach_symptom
+    - action: utter_day
+    - intent: day
+    - action: utter_stomach_types
+    - intent: deny
+    - action: utter_poison_response_stomach
+    - intent: book
+    - action: utter_link1
+
+
+- story: heat_burn
+  steps:
+    - intent: heart_burn_symptom
+    - action: utter_heart_burn_symptom
+    - intent: deny
+    - action: utter_heart_burn_remedies
+    - action: utter_day
+    - intent: day
+    - action: utter_poison_response_heart
+    - intent: book
+    - action: utter_link2
+
+- story: rash
+  steps:
+    - intent: rash_symptom
+    - action: utter_day
+    - intent: day
+    - action: utter_rash_symptom
+    - intent: deny
+    - action: utter_poison_response
+    - intent: book
+    - action: utter_link3
+
+- story: fever
+  steps:
+    - intent: fever_symptom
+    - action: utter_day
+    - intent: day
+    - action: utter_fever_symptom
+    - intent: deny
+    - action: utter_poison_response_fever
+    - intent: book
+    - action: utter_link4
+
+- story: cold
+  steps:
+    - intent: cold_symptom
+    - action: utter_cold_symptom
+    - intent: deny
+    - action: utter_cold_remedies
+    - action: utter_day
+    - intent: day
+    - action: utter_poison_response_cold
+    - intent: book
+    - action: utter_link5
+
+- story: Diarrhea
+  steps:
+    - intent: Diarrhea_symptom
+    - action: utter_Diarrhea_symptom
+    - intent: deny
+    - action: utter_Diarrhea_remedies
+    - action: utter_day
+    - intent: day
+    - action: utter_poison_response_Diarrhea
+    - intent: book
+    - action: utter_link6
+
+- story: sorethroat
+  steps:
+    - intent: sorethroat_symptom
+    - action: utter_sorethroat_symptom
+    - intent: deny
+    - action: utter_sorethroat_remedies
+    - action: utter_day
+    - intent: day
+    - action: utter_poison_response_sorethroat
+    - intent: book
+    - action: utter_link7
+
+- story: earpain
+  steps:
+    - intent: earpain_symptom
+    - action: utter_earpain_symptom
+    - intent: deny
+    - action: utter_earpain_remedies
+    - action: utter_day
+    - intent: day
+    - action: utter_poison_response_earpainn
+    - intent: book
+    - action: utter_link8
+
+
+
+
+
+
+  

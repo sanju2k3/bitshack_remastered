@@ -1,0 +1,89 @@
+version: "2.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+- intent: goodbye
+  examples: |
+    - good bye
+    - bye
+    - see you
+- intent: affirm
+  examples: |
+    - yes
+    - s
+    - ok
+- intent: deny
+  examples: |
+    - no
+    - never
+    - n
+- intent: day
+  examples: |
+    - less than 24 hours
+    - more than 24 hours
+    - less
+    - more
+    - l
+    - m
+
+- intent: stomach_symptom
+  examples: |
+    - stomachache
+    -stomachpain
+    - pain in stomach
+    - stomach ache
+    - stomach
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+- intent: heart_burn_symptom
+  examples: |
+    - heart pain
+    - discomfort from heat
+    - overheating
+    - heat exhaustion
+- intent: rash_symptom
+  examples: |
+    - rash
+    - skin irritation
+    - red spots on skin
+    - itchy skin
+- intent: book
+  examples: |
+    - b
+    - book
+    - booking
+    - book now
+- intent: fever_symptom
+  examples: |
+    - fever
+    - viral fever
+    - high fever
+- intent: cold_symptom
+  examples: |
+    - cold
+    - cough
+    - high cold
+- intent: Diarrhea_symptom
+  examples: |
+    - lose motion
+    - diarrhea
+    - losetools
+- intent: sorethroat_symptom
+  examples: |
+    - sore throat
+    - throat pain
+    - sore
+- intent: earpain_symptom
+  examples: |
+    - earpain
+    - ear pain
+    - ear
+
